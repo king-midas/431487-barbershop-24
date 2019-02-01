@@ -63,10 +63,23 @@
           </fieldset>
           <fieldset>
             <legend>Группы товаров:</legend>
+            <ul>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" name="product-group" type="radio" id="filter-shave" value="shaving">
+                <label for="filter-shave">Бритвенные принадлежности</label></li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" name="product-group" type="radio" id="filter-care" value="hair-care">
+                <label for="filter-care">Средства для ухода</label></li>
+              <li class="filter-option">
+                <input class="visually-hidden filter-input filter-input-radio" name="product-group" type="radio" id="filter-accessories" value="accessories">
+                <label for="filter-accessories">Аксессуары</label></li>
+            </ul>
           </fieldset>
+          <button class="button filter-button" type="submit">Показать</button>
         </form>
       </section>
       <section class="catalog">
+
         <h2 class="visually-hidden">Список средств по уходу</h2>
         <ul class="catalog-list">
 
